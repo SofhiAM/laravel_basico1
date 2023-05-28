@@ -17,7 +17,7 @@
         </div>    
     </nav>
     <div class="container">
-        <h4>Sé nuestro cliente</h2>
+        <h4 class="center">Sé nuestro cliente</h2>
         <h6>Para nosotros sería genial recomendarte de nuestras ofertas y descuentos. Registrate y no te pierdas de las mejores promociones</h6>
         <br>
         
@@ -28,11 +28,31 @@
                     <input id="last_name" type="text" class="validate">
                     <label for="last_name">Nombre</label>
                     </div>
+
                     <div class="input-field col s6">
                     <input id="last_name" type="text" class="validate">
                     <label for="last_name">Apellido</label>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <input id="email" type="number" class="validate">
+                        <label for="telefono">Telefono</label>
+                    </div>
+                    <br>
+                    <label>
+                        <input type="checkbox" />
+                        <span>Acepto los términos y condiciones</span>
+                    </label>
+                </div>
+
+                <a class="waves-effect waves-light btn-large"><i class="material-icons left">send</i>Enviar mis datos</a>
             </form>
         </div>
     </div>
