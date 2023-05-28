@@ -30,5 +30,4 @@ use App\Http\Controllers\ControladorCompra;
 
     // Controlador 3
     Route::get('/comprar', [ControladorCompra::class, 'irCompra']);
-    Route::get('/editar', [ControladorCompra::class, 'datos']);
     Route::get('/añadir', [ControladorCompra::class, 'clientes']);

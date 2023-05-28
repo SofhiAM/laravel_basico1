@@ -18,7 +18,7 @@
     </nav>
 
     <div class="container">
-        <h4 class="center">Listado de Productos</h4>
+        <h2 class="center teal-text darken-4">CATEGORÍAS DISPONIBLES</h2>
         <h6 class="center">Escoge la categoría de productos que quieres visualizar</h6>
         <br>
         <div class="row">

@@ -18,7 +18,7 @@
         </div>    
     </nav>
     <div class="container">
-        <h4 class="center teal-text darken-4">CARRITO DE COMPRAS</h4>
+        <h2 class="center teal-text darken-4">CARRITO DE COMPRAS</h2>
         <div class="row">
             <div class="col s12 m6">
                 <ul class="collection">
