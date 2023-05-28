@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ControladorLista;
+use App\Http\Controllers\ControladorRopa;
+use App\Http\Controllers\ControladorCompra;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('listap');
+// });
+    // Controlador 1
+    Route::get('/', [ControladorLista::class, 'mostrarLista']);
+
+    // Controlador 2
+    Route::get('/zapatos', [ControladorRopa::class, 'mostrarZapatos']);
+    Route::get('/caballero', [ControladorRopa::class, 'mostrarRCaballero']);
+    Route::get('/dama', [ControladorRopa::class, 'mostrarRDama']);
+
+    // Controlador 3
+    Route::get('/comprar', [ControladorCompra::class, 'irCompra']);
+    Route::get('/editar', [ControladorCompra::class, 'datos']);
+    Route::get('/añadir', [ControladorCompra::class, 'clientes']);
