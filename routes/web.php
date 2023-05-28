@@ -20,7 +20,8 @@ use App\Http\Controllers\ControladorCompra;
 //     return view('listap');
 // });
     // Controlador 1
-    Route::get('/', [ControladorLista::class, 'mostrarLista']);
+    Route::get('/', [ControladorLista::class, 'inicio']);
+    Route::get('/lista', [ControladorLista::class, 'mostrarLista']);
 
     // Controlador 2
     Route::get('/zapatos', [ControladorRopa::class, 'mostrarZapatos']);

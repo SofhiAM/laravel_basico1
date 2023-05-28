@@ -18,7 +18,7 @@
         </div>    
     </nav>
     <div class="container">
-        <h4 class="center">Carrito de Compras</h4>
+        <h4 class="center teal-text darken-4">CARRITO DE COMPRAS</h4>
         <div class="row">
             <div class="col s12 m6">
                 <ul class="collection">
@@ -74,10 +74,29 @@
                 <a class="waves-effect waves-light btn"><i class="material-icons left">credit_card</i>Crédito</a>
 
                 <br><br>
+                <hr>
 
-                <h5>Método de Pago</h6>
-                <a class="waves-effect waves-light btn"><i class="material-icons left">credit_score</i>Debito</a>
-                <a class="waves-effect waves-light btn"><i class="material-icons left">credit_card</i>Crédito</a>
+                <h5>Datos de Envio</h6>
+
+                <div class="input-field col s12">
+                    <label for="pais">Pais</label>
+                    <input id="pais" type="text" class="validate">
+                </div>
+                <div class="input-field col s6">
+                    <label for="depto">Departamento</label>
+                    <input id="depto" type="text" class="validate">
+                </div>
+                <div class="input-field col s6">
+                    <label for="ciudad">Ciudad</label>
+                    <input id="ciudad" type="text" class="validate">
+                </div>
+                <div class="input-field col s12">
+                    <label for="dir">Dirección</label>
+                    <input id="dir" type="text" class="validate">
+                </div>                
+                <br>
+
+                <a class="waves-effect waves-light btn s6">Guardar</a>
             </div>
         </div>
     </div>
